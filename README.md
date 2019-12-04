@@ -160,11 +160,6 @@
        + Se o modo manual não estiver ativado, o controlador aceita comandos pela entrada
          serial, como descrito acima.
 
-    <p align="center">
-     <img width="540" height="320" src="">
-     </p>
-  
-  
 + ## Periféricos
 
   + **Chaves e Sensores:** São utilizadas chaves normalmente abertas para simular o comportamento dos sensores de referência (Home) e de proteção aberta (Cover Closed).
