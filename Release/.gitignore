@@ -1,0 +1,264 @@
+
+# Created by https://www.gitignore.io/api/c,c++,eclipse
+# Edit at https://www.gitignore.io/?templates=c,c++,eclipse
+
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# Executables
+
+### Eclipse ###
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# CDT- autotools
+.autotools
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+### Eclipse Patch ###
+# Eclipse Core
+.project
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Annotation Processing
+.apt_generated
+
+.sts4-cache/
+
+.log
+**/bin/*
+**/target/*
+/log.txt
+workspace/*
+
+app/bin/
+app/pde.jar
+build/macosx/work/
+arduino-core/bin/
+arduino-core/arduino-core.jar
+hardware/arduino/bootloaders/caterina_LUFA/Descriptors.o
+hardware/arduino/bootloaders/caterina_LUFA/Descriptors.lst
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.sym
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.o
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.map
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.lst
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.lss
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.elf
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.eep
+hardware/arduino/bootloaders/caterina_LUFA/.dep/
+build/*.zip
+build/*.tar.bz2
+build/windows/work/
+build/windows/*.zip
+build/windows/*.tgz
+build/windows/*.tar.bz2
+build/windows/libastylej*
+build/windows/liblistSerials*
+build/windows/arduino-*.zip
+build/windows/dist/*.tar.gz
+build/windows/dist/*.tar.bz2
+build/windows/launch4j-*.tgz
+build/windows/launch4j-*.zip
+build/windows/launcher/launch4j
+build/windows/WinAVR-*.zip
+build/macosx/arduino-*.zip
+build/macosx/dist/*.tar.gz
+build/macosx/dist/*.tar.bz2
+build/macosx/*.tar.bz2
+build/macosx/libastylej*
+build/macosx/appbundler*.jar
+build/macosx/appbundler*.zip
+build/macosx/appbundler
+build/macosx/appbundler-1.0ea-arduino?
+build/macosx/appbundler-1.0ea-arduino*.zip
+build/macosx/appbundler-1.0ea-upstream*.zip
+build/linux/work/
+build/linux/dist/*.tar.gz
+build/linux/dist/*.tar.bz2
+build/linux/*.tgz
+build/linux/*.tar.xz
+build/linux/*.tar.bz2
+build/linux/*.zip
+build/linux/libastylej*
+build/linux/liblistSerials*
+build/shared/reference*.zip
+build/shared/Edison*.zip
+build/shared/Galileo*.zip
+build/shared/WiFi101-Updater-ArduinoIDE-Plugin*.zip
+test-bin
+*.iml
+.idea
+.DS_Store
+.directory
+hardware/arduino/avr/libraries/Bridge/examples/XivelyClient/passwords.h
+avr-toolchain-*.zip
+/app/nbproject/private/
+/arduino-core/nbproject/private/
+/app/build/
+/arduino-core/build/
+
+manifest.mf
+nbbuild.xml
+nbproject
+
+/target
+/lib
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+.lein-deps-sum
+.lein-failures
+.lein-plugins
+.lein-repl-history
+push
+*.nrepl*
+
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+coverage.txt
+profile.out
+
+*.exe
+*.test
+*.prof
+
+# End of https://www.gitignore.io/api/c,c++,eclipse
